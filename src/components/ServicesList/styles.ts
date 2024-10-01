@@ -30,7 +30,7 @@ export const List = styled.ul`
     grid-template-columns: 1fr 1fr;
   `}
 
-  ${media.greaterThan('medium')`
+  ${media.greaterThan('large')`
     grid-template-columns: 1fr 1fr 1fr;
   `}
 `
@@ -44,18 +44,18 @@ export const ItemWrapper = styled.li`
 
   h2 {
     font-size: 2.8rem;
-  font-weight: 500;
-  color: #ffffff;
-  text-align: center;
-  margin-top: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 1rem;
   }
 
   p {
     font-size: 1.8rem;
-  font-weight: 400;
-  color: #e2e2e2;
-  text-align: center;
-  margin-top: 1rem;
+    font-weight: 400;
+    color: #e2e2e2;
+    text-align: center;
+    margin-top: 1rem;
   }
 `
 

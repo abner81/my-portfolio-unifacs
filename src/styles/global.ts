@@ -1,6 +1,8 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
   * {
     margin: 0;
     padding: 0;
@@ -17,7 +19,8 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #19191B;
   }
 `
 
