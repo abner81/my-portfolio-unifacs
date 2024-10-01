@@ -11,17 +11,17 @@ const Header = () => (
           <Link href="#home">Home</Link>
         </S.Item>
         <S.Item>
-          <Link href="#service">Service</Link>
+          <Link href="#service">Serviços</Link>
         </S.Item>
         <S.Item>
-          <Link href="#our-project">Our Project</Link>
+          <Link href="#our-project">Especialidades</Link>
         </S.Item>
         <S.Item>
-          <Link href="#about-us">About us</Link>
+          <Link href="#about-us">Meus Projetos</Link>
         </S.Item>
       </S.Sections>
     </nav>
-    <S.Button>Contact Us</S.Button>
+    <S.Button>Entre em Contato</S.Button>
   </S.Wrapper>
 )
 

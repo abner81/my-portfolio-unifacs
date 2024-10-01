@@ -2,7 +2,7 @@ import * as S from './styles'
 
 const AboutUs = () => (
   <S.Wrapper id='about-us'>
-    <h1>Our Awesome Portofolio</h1>
+    <h1>Meu Portfólio</h1>
     <S.Content>
       <S.Box>
         <img src='img/portfolio-1.svg'/>

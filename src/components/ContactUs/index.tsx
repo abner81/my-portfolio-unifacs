@@ -2,8 +2,8 @@ import * as S from './styles'
 
 const ContactUs = () => (
   <S.Wrapper>
-    <h1>Contact us for the service you want to use</h1>
-    <S.Button>Contact Us</S.Button>
+    <h1>Entre em contato conosco para solucionarmos o seu problema.</h1>
+    <S.Button>Entre em contato</S.Button>
   </S.Wrapper>
 )
 
