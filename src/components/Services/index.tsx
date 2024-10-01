@@ -1,12 +1,11 @@
 import * as S from './styles'
 
 const Services = () => (
-  <S.Wrapper>
+  <S.Wrapper id='service'>
     <S.Content>
-      <h1>Why Enver Is The Best Choice?</h1>
+      <h1>Por que sou a sua melhor escolha?</h1>
       <p>
-        Watch this one minute video so you understand why you should use our
-        services!
+      Assista a este vídeo de um minuto e descubra por que minha expertise em desenvolvimento de software é exatamente o que você precisa para levar seu projeto para o próximo nível!
       </p>
     </S.Content>
     <img src='img/services.svg'/>

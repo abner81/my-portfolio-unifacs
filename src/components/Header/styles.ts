@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12,15 +12,19 @@ export const Sections = styled.ul`
   list-style: none;
 `
 export const Item = styled.li`
-  cursor: pointer;
-  color: #bab9b9;
-  font-size: 1.6rem;
-  font-weight: 400;
-  padding-left: 3rem;
+  a {
+    cursor: pointer;
+    color: #bab9b9;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding-left: 3rem;
+    text-decoration: none;
+    color: #bab9b9;
 
-  &:hover {
-    color: #5454d4;
-    transition: 0.2s ease-in-out;
+    &:hover {
+      color: #5454d4;
+      transition: 0.2s ease-in-out;
+    }
   }
 `
 

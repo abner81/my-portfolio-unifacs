@@ -4,8 +4,8 @@ import { RiArrowRightUpLine } from "react-icons/ri";
 const Home = () => (
   <S.Wrapper>
     <div>
-      <S.Title>Build Your Awesome Platform</S.Title>
-      <S.SubTitle>Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.</S.SubTitle>
+      <S.Title>Transformando Ideias em Soluções de Software</S.Title>
+      <S.SubTitle>Eu sou Abner Machado, desenvolvedor especializado em criar aplicações robustas e escaláveis que impulsionam seu negócio ao próximo nível.</S.SubTitle>
    <S.Button>Our Services <RiArrowRightUpLine size='14' color='white'/> </S.Button>
     </div>
     <img src='img/my-photo.png'/>

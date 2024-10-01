@@ -25,6 +25,8 @@ export const List = styled.ul`
   grid-template-columns: 1fr;
   row-gap: 7rem;
   column-gap: 3rem;
+  align-items: center;
+  justify-content: center;
 
   ${media.greaterThan('small')`
     grid-template-columns: 1fr 1fr;

@@ -1,7 +1,7 @@
 import * as S from './styles'
 
 const AboutUs = () => (
-  <S.Wrapper>
+  <S.Wrapper id='about-us'>
     <h1>Our Awesome Portofolio</h1>
     <S.Content>
       <S.Box>

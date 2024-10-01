@@ -1,15 +1,26 @@
+import Link from 'next/link'
 import * as S from './styles'
 import Logo from 'components/Logo'
 
 const Header = () => (
-  <S.Wrapper>
+  <S.Wrapper id="home">
     <Logo />
-    <S.Sections>
-      <S.Item>Home</S.Item>
-      <S.Item>Service</S.Item>
-      <S.Item>Our Project</S.Item>
-      <S.Item>About us</S.Item>
-    </S.Sections>
+    <nav>
+      <S.Sections>
+        <S.Item>
+          <Link href="#home">Home</Link>
+        </S.Item>
+        <S.Item>
+          <Link href="#service">Service</Link>
+        </S.Item>
+        <S.Item>
+          <Link href="#our-project">Our Project</Link>
+        </S.Item>
+        <S.Item>
+          <Link href="#about-us">About us</Link>
+        </S.Item>
+      </S.Sections>
+    </nav>
     <S.Button>Contact Us</S.Button>
   </S.Wrapper>
 )

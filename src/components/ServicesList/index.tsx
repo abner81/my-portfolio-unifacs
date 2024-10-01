@@ -11,46 +11,45 @@ const services: IServiceItem[] = [
   {
     icon: <FaLaptopCode />,
     color: '#5454D4',
-    subTitle: 'Create a platform with the best and coolest quality from us.',
-    title: 'Development'
+    subTitle: 'Desenvolvimento de software com qualidade e inovação para transformar suas ideias em soluções robustas.',
+    title: 'Desenvolvimento'
   },
   {
     icon: <MdOutlineDesignServices />,
     color: '#F04037',
     subTitle:
-      'We provide UI/UX Design services, and of course with the best quality.',
-    title: 'UI/UX Designer'
+    'Criação de interfaces intuitivas e designs funcionais que melhoram a experiência do usuário.',
+  title: 'UI/UX Design'
   },
   {
     icon: <FaLaptopCode />,
     color: '#FEDC5A',
-    subTitle: 'We provide Graphic Design services, with the best designers.',
-    title: 'Graphik Designer'
+ subTitle: 'Design visual e branding com impacto, sempre focado nos detalhes e na estética.',
+    title: 'Design Gráfico'
   },
   {
-    icon: <CgMenuMotion />,
-    color: '#5454D4',
-    subTitle: 'Create a platform with the best and coolest quality from us.',
-    title: 'Motion Graphik'
+    icon: <FaLaptopCode />,
+    color: '#34A853',
+       subTitle: 'Arquitetura e design de software baseados no domínio, garantindo que as regras de negócio sejam o centro do projeto.',
+    title: 'DDD (Domain-Driven Design)'
   },
   {
-    icon: <MdOutlinePhotoCamera />,
-    color: '#5454D4',
-    subTitle:
-      'We provide Photography services, and of course with the best quality.',
-    title: 'Photography'
+    icon: <FaLaptopCode />,
+    color: '#4285F4',
+    subTitle: 'Código limpo, legível e de fácil manutenção, seguindo as melhores práticas de programação.',
+    title: 'Clean Code'
   },
   {
-    icon: <RiVideoLine />,
-    color: '#5454D4',
-    subTitle: 'Create a platform with the best and coolest quality from us..',
-    title: 'Videography'
+    icon: <FaLaptopCode />,
+    color: '#FBBC05',
+    subTitle: 'Estrutura de software organizada e escalável, utilizando os princípios da Clean Architecture.',
+    title: 'Clean Architecture'
   }
 ]
 
 const ServicesList = () => (
-  <S.Wrapper>
-    <S.Title>The Service We Provide For You</S.Title>
+  <S.Wrapper id='our-project'>
+    <S.Title>Serviços que Forneço Para Você</S.Title>
     <S.List>
       {services.map((service) => (
         <Item
